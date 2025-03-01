@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 
 const API_KEY = "e467712b257e418838be97cc881a71de";
 
