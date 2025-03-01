@@ -6,7 +6,7 @@ function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState(null);
 
-  const search = async (e) => {
+  const search =  (e) => {
     if (e.key === "Enter") {
       fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`
